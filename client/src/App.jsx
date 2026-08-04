@@ -9,6 +9,7 @@ import Attendance from "./pages/Attendence";
 import Payslips from "./pages/Payslips";
 import Setting from "./pages/Setting";
 import PrintPaySlipPage from "./pages/PrintPaySlip";
+import Leaves from "./pages/Leaves";
 import LoginForm from "./components/LoginForm";
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/attendance" element={<Attendance />} />
           <Route path="/payslips" element={<Payslips />} />
           <Route path="/settings" element={<Setting />} />
+          <Route path="/leaves" element={<Leaves />} />
         </Route>
 
         <Route path="/print/payslips/:id" element={<PrintPaySlipPage />} />
