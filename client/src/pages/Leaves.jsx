@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Leave = () => {
+const Leaves = () => {
   return (
     <div>
       Leave
@@ -8,4 +8,4 @@ const Leave = () => {
   )
 }
 
-export default Leave
+export default Leaves
