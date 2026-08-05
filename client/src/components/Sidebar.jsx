@@ -49,7 +49,7 @@ const Sidebar = () => {
       <div className="px-5 pt-6 pb-5 border-b border-white/6">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <UserIcon classNametext-white size-7 />
+            <UserIcon className ="text-white size-7" />
             <div>
               <p className="font-semibold text-[13px] text-white tracking-wide">
                 Employee MS
