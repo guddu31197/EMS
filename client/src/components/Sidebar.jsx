@@ -33,7 +33,7 @@ const Sidebar = () => {
     { name: "Dashboard", href: "/dashboard", icon: LayoutGridIcon },
     role === "ADMIN"
       ? { name: "Employees", href: "/employees", icon: UserIcon }
-      : { name: "Attendence", href: "/attendance", icon: Calendar1Icon },
+      : { name: "Attendance", href: "/attendance", icon: Calendar1Icon },
     { name: "Leaves", href: "/leaves", icon: FileTextIcon },
     { name: "Payslips", href: "/payslips", icon: DollarSignIcon },
     { name: "Settings", href: "/settings", icon: SettingsIcon },

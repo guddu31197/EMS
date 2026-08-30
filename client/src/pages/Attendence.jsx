@@ -5,7 +5,7 @@ import CheckInButton from "../components/attendance/CheckInButton";
 import AttendanceStats from "../components/attendance/AttendanceStats";
 import AttendanceHistory from "../components/attendance/AttendanceHistory";
 
-const Attendence = () => {
+const Attendance = () => {
   const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isDeleted, setIsDeletd] = useState(false);
@@ -55,4 +55,4 @@ const Attendence = () => {
   );
 };
 
-export default Attendence;
+export default Attendance;
