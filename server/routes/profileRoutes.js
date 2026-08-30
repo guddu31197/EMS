@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { protect } from "../middleware/auth";
-import { getProfile, updateProfile } from "../controllers/profileControllers";
+import { protect } from "../middleware/auth.js";
+import { getProfile, updateProfile } from "../controllers/profileControllers.js";
 
 
-const profileRouter =Router;
+const profileRouter =Router();
 
 profileRouter.get("/", protect, getProfile)
 profileRouter.post("/", protect, updateProfile)
