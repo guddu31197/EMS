@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { dummyProfileData } from "../assets/assets";
 import Loading from "../components/Loading";
 import { Lock } from "lucide-react";
-import ProfileForm from "../components/ProfileForm";
-import ChangePasswordModal from "../components/changePasswordModal";
+import ProfileForm from "../components/payslin/ProfileForm";
+import ChangePasswordModal from "../components/payslin/ChangePasswordModal";
 
 const Setting = () => {
   const [profile, setProfile] = useState(null);
