@@ -3,7 +3,7 @@ import { dummyProfileData } from "../assets/assets";
 import Loading from "../components/Loading";
 import { Lock } from "lucide-react";
 import ProfileForm from "../components/ProfileForm";
-import ChangePasswordModal from "../components/changePasswordModal";
+import ChangePasswordModal from "../components/ChangePasswordModal";
 
 const Setting = () => {
   const [profile, setProfile] = useState(null);
